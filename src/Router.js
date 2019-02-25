@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Hjem from "./components/Hjem";
-import Anmodning from "./components/Anmodning";
+import Home from "./components/Home";
+import Request from "./components/Request";
 
 
 class Router extends Component {
     render() {
         return (
             <Switch>
-                <Route exact path='/' component={Hjem}></Route>
-                <Route exact path='/about' component={Anmodning}></Route>
+                <Route exact path='/' component={Home}></Route>
+                <Route exact path='/about' component={Request}></Route>
             </Switch>
         );
     }

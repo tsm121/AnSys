@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import Button from 'antd/lib/button';
+import RequestSelector from "./RequestSelector";
 
-
-class Hjem extends Component {
+class Request extends Component {
     render() {
         return (
             <div className='home'>
-                <h1>Home</h1>
+                <h1>About</h1>
                 <p> Feel free to browse around and learn more about me.</p>
-                <Button type="primary">Button</Button>
+
+                <RequestSelector/>
             </div>
         );
     }
 }
 
-export default Hjem;
+export default Request;
