@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Form } from 'antd';
 import TitleInput from "../form/TitleInput";
 import DateSelect from "../form/DateSelect";
+import TypeOfEventInput from "../form/TypeOfEventInput";
 
 
 class Facebook extends Component {
@@ -17,6 +18,12 @@ class Facebook extends Component {
                 <DateSelect
                     label={"Velg tidspunkt for event"}
                     required={true}
+                />
+
+                <TypeOfEventInput
+                    placeholder={"Trykk eller skriv for å velge type event"}
+                    label={"Velg type event"}
+                    required={false}
                 />
             </Form>
         );

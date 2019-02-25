@@ -71,10 +71,9 @@ class DateSelect extends Component {
     }
 
     render() {
-        const {label, placeholder, required} = this.props
+        const {label, required} = this.props
         const {singleDate} = this.state
         return (
-            <div>
                 <Form.Item required={required} label={label}>
                     <Col>
 
@@ -100,7 +99,6 @@ class DateSelect extends Component {
 
                     </Col>
                 </Form.Item>
-            </div>
         );
     }
 }

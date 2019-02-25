@@ -1,0 +1,15 @@
+{
+  "Konsert": {
+    "value": "[KONSERT]",
+    "key": "konsert"
+  },"Quiz": {
+  "value": "[QUIZ]",
+  "key": "quiz"
+  },"Temafest":{
+  "value": "[TEMAFEST]",
+  "key": "temafest"
+  }, "Annet": {
+  "value": "[ANNET]",
+  "key": "annet"
+  }
+}

@@ -6,9 +6,6 @@ class TitleInput extends Component {
     render() {
         const {label, placeholder, required} = this.props
         return (
-            <div>
-                <h1>Facebook</h1>
-
                 <Form.Item required={required} label={label}>
 
                 <Input
@@ -17,7 +14,6 @@ class TitleInput extends Component {
                     placeholder={placeholder}
                 />
             </Form.Item>
-            </div>
         );
     }
 }
