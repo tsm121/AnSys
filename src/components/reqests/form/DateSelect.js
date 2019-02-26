@@ -9,6 +9,7 @@ moment.locale("nb")
 const { RangePicker } = DatePicker;
 const dateFormat = 'DD/MM/YYYY';
 const timeFormat = 'HH:mm';
+let dateLimit = moment().endOf('day').add(7,"days")
 
 
 class DateSelect extends Component {
@@ -21,8 +22,9 @@ class DateSelect extends Component {
 
 
     disabledDate(current) {
-        // Can not select days before today and today
-        return current && current < moment().endOf('day').add(5,"days");
+
+            return current && current < dateLimit;
+
     }
 
     handleRadioButton = (value) => {
@@ -34,6 +36,18 @@ class DateSelect extends Component {
 
     selectDatePicker = () => {
         const {singleDate} = this.state
+        const {urgent} = this.props
+
+        console.log(urgent)
+
+        if (urgent) {
+
+            dateLimit = moment().endOf('day')
+        } else {
+            dateLimit = moment().endOf('day').add(7,"days")
+
+        }
+
 
         if (singleDate) {
             return (
@@ -73,6 +87,7 @@ class DateSelect extends Component {
     render() {
         const {label, required} = this.props
         const {singleDate} = this.state
+
         return (
                 <Form.Item required={required} label={label}>
                     <Col>
