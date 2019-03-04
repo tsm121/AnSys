@@ -8,6 +8,7 @@ import UrgentOption from "../form/UrgentOption";
 import AgeLimit from "../form/AgeLimit";
 import RoomSelection from "../form/RoomSelection";
 import OrganizerSelection from "../form/OrganizerSelection";
+import PublishDate from "../form/PublishDate";
 
 
 class Facebook extends Component {
@@ -46,6 +47,8 @@ class Facebook extends Component {
 
                 <DateSelect
                     label={"Velg tidspunkt for event"}
+                    placeholderSingleDate={"Dato for event"}
+                    placeholderMultipleDates={['Starttid', 'Sluttid']}
                     required={true}
                     urgent={urgent}
 
@@ -85,6 +88,12 @@ class Facebook extends Component {
                     required={false}
                     max_organizers={3}
                     singleSelection={true}
+                />
+
+                <PublishDate
+                    placeholder={"Dato for publisering"}
+                    label={"Velg dato og tid for publisering"}
+                    required={true}
                 />
 
             </Form>

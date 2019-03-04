@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form, Select } from 'antd';
+import {Col, Form, Select, Radio, Row} from 'antd';
 import Organizers from '../../data/Organizers'
 
 const Option = Select.Option;
@@ -74,9 +74,28 @@ class OrganizerSelection extends Component {
 
     render() {
         return (
-            <Form.Item>
-                {this.selectTypeOfInput()}
-            </Form.Item>
+
+                <Col>
+
+                    <Row>
+                        {this.selectTypeOfInput()}
+                    </Row>
+
+                    <Row>
+                        <Form.Item label={"Hvem er eventet for?"}>
+
+                        <Radio.Group
+                            buttonStyle="solid"
+                            onChange={this.handleRadioButton}
+                        >
+                            <Radio.Button value="eksterne">Eksterne</Radio.Button>
+                            <Radio.Button value="interne">Internere</Radio.Button>
+                        </Radio.Group>
+
+                        </Form.Item>
+                    </Row>
+
+                </Col>
         );
     }
 }

@@ -36,7 +36,7 @@ class DateSelect extends Component {
 
     selectDatePicker = () => {
         const {singleDate} = this.state
-        const {urgent} = this.props
+        const {urgent, placeholderSingleDate, placeholderMultipleDates} = this.props
 
         if (urgent) {
             dateLimit = moment().endOf('day')
@@ -48,7 +48,7 @@ class DateSelect extends Component {
             return (
 
                 <DatePicker
-                    placeholder={"Dato for event"}
+                    placeholder={placeholderSingleDate}
                     /*defaultValue={moment().endOf('day').add(5,"days")}*/
                     // defaultPickerValue={moment().day(7+7+7+5)}
                     disabledDate={this.disabledDate}
@@ -63,7 +63,7 @@ class DateSelect extends Component {
             return (
 
                 <RangePicker
-                    placeholder={['Starttid', 'Sluttid']}
+                    placeholder={placeholderMultipleDates}
                     /*defaultValue={[
                         moment().endOf('day').add(5,"days"),
                         moment().endOf('day').add(8,"days")]}*/
