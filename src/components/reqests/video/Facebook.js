@@ -21,8 +21,9 @@ class Facebook extends Component {
 
     handleUrgentCheckbox = (event) => {
         this.setState(() => ({
-            urgent: event.target.checked
+            urgent: event
         }))
+        console.log("Recieved:",event)
 
     }
 
@@ -33,8 +34,7 @@ class Facebook extends Component {
             <Form>
 
                 <UrgentOption
-                    label={"Hvis anmodningen haster"}
-                    placeholder={"Haster"}
+                    placeholder={"Anmodningen haster"}
                     required={false}
                     handleUrgent={this.handleUrgentCheckbox}
                 />
