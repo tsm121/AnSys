@@ -5,6 +5,7 @@ import DateSelect from "../form/DateSelect";
 import TypeOfEventInput from "../form/TypeOfEventInput";
 import DescriptionInput from "../form/DescriptionInput";
 import UrgentOption from "../form/UrgentOption";
+import AgeLimit from "../form/AgeLimit";
 
 
 class Facebook extends Component {
@@ -59,6 +60,13 @@ class Facebook extends Component {
                     placeholder={"Gi en beskrivelse av anmodningen"}
                     label={"Beskrivelse"}
                     required={true}
+                />
+
+                <AgeLimit
+                    placeholder={"Aldersgrense"}
+                    label={"Skriv inn aldersgrense for event"}
+                    required={false}
+                    limitedInput={true}
                 />
 
             </Form>
