@@ -31,7 +31,7 @@ class TypeOfEventInput extends Component {
                             validator: (rule, value, callback) => {
                                 if (value) {
                                     if (value.length > max_tags) {
-                                        callback("Ikke velg flere enn " + max_tags.toString() + " tag(s)");
+                                        callback("Ikke velg mer enn " + max_tags.toString() + " tag(s)");
                                     } else if (value.length <= max_tags) {
                                         callback();
                                     }

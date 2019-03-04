@@ -1,0 +1,51 @@
+{
+  "Storsalen": {
+    "value": "[STORSALEN]",
+    "key": "storsalen"
+  },"Klubben": {
+  "value": "[KLUBBEN]",
+  "key": "klubben"
+  },"Knaus": {
+  "value": "[KNAUS]",
+  "key": "knaus"
+  },"Rundhallen": {
+  "value": "[RUNDHALLEN]",
+  "key": "rundhallen"
+  },"Edgar": {
+  "value": "[EDGAR]",
+  "key": "edgar"
+  },"Lyche": {
+  "value": "[Lyche]",
+  "key": "lyche"
+  },"Bodegaen": {
+  "value": "[BODEGAEN]",
+  "key": "bodegaen"
+  },"Biblioteket": {
+  "value": "[BIBLIOTEKET]",
+  "key": "biblioteket"
+  },"Strossa": {
+  "value": "[STROSSA]",
+  "key": "strossa"
+  },"Selskapssiden": {
+  "value": "[SELSKAPSSIDEN]",
+  "key": "selskapssiden"
+  },"Talekoffert 1": {
+  "value": "[TALEKOFFERT 1]",
+  "key": "talekoffert_1"
+  },"Talekoffert 2": {
+  "value": "[TALEKOFFERT 2]",
+  "key": "talekoffertt_2"
+  },"Talekoffert 3": {
+  "value": "[TALEKOFFERT 3]",
+  "key": "talekoffert_3"
+  },"Trafon, Nedre Møterom": {
+  "value": "[TRAFOEN, NEDRE MØTEROM]",
+  "key": "trafoen_nedre_møterom"
+  },"Trafoen, Øvingsrom": {
+  "value": "[TRAFOEN, ØVINGSROM]",
+  "key": "trafoen_øvingsrom"
+  },"Hele huset": {
+  "value": "[HELE HUSET]",
+  "key": "hele_huset"
+}
+}

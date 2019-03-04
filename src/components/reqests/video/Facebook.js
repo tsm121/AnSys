@@ -6,6 +6,7 @@ import TypeOfEventInput from "../form/TypeOfEventInput";
 import DescriptionInput from "../form/DescriptionInput";
 import UrgentOption from "../form/UrgentOption";
 import AgeLimit from "../form/AgeLimit";
+import RoomSelection from "../form/RoomSelection";
 
 
 class Facebook extends Component {
@@ -67,6 +68,14 @@ class Facebook extends Component {
                     label={"Skriv inn aldersgrense for event"}
                     required={false}
                     limitedInput={true}
+                />
+
+                <RoomSelection
+                    placeholder={"Trykk eller skriv for å velge rom"}
+                    label={"Velg rom for event"}
+                    required={false}
+                    max_rooms={3}
+                    singleSelection={false}
                 />
 
             </Form>
