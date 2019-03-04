@@ -52,14 +52,15 @@ class Facebook extends Component {
                     placeholder={"Trykk eller skriv for å velge type event"}
                     label={"Velg type event"}
                     required={false}
+                    max_tags={3}
                 />
-
 
                 <DescriptionInput
                     placeholder={"Gi en beskrivelse av anmodningen"}
                     label={"Beskrivelse"}
                     required={true}
                 />
+
             </Form>
         );
     }

@@ -38,16 +38,11 @@ class DateSelect extends Component {
         const {singleDate} = this.state
         const {urgent} = this.props
 
-        console.log(urgent)
-
         if (urgent) {
-
             dateLimit = moment().endOf('day')
         } else {
             dateLimit = moment().endOf('day').add(7,"days")
-
         }
-
 
         if (singleDate) {
             return (
