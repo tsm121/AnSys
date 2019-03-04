@@ -7,6 +7,7 @@ import DescriptionInput from "../form/DescriptionInput";
 import UrgentOption from "../form/UrgentOption";
 import AgeLimit from "../form/AgeLimit";
 import RoomSelection from "../form/RoomSelection";
+import OrganizerSelection from "../form/OrganizerSelection";
 
 
 class Facebook extends Component {
@@ -76,6 +77,14 @@ class Facebook extends Component {
                     required={false}
                     max_rooms={3}
                     singleSelection={false}
+                />
+
+                <OrganizerSelection
+                    placeholder={"Trykk eller skriv for å velge arrangør"}
+                    label={"Velg arrangør for event"}
+                    required={false}
+                    max_organizers={3}
+                    singleSelection={true}
                 />
 
             </Form>

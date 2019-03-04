@@ -50,77 +50,11 @@
   }, "Framføring": {
   "value": "[FRAMFØRING]",
   "key": "framføring"
-  }, "Eksternt": {
-  "value": "[EKSTERNT]",
-  "key": "eksternt"
-  }, "Internt": {
-  "value": "[INTERNT]",
-  "key": "internt"
-  }, "UKA": {
-  "value": "[UKA]",
-  "key": "uka"
   }, "UKE-arrangement": {
   "value": "[UKE-ARRANGEMENT]",
   "key": "uke-arrangement"
   }, "Onsdagsdebatt": {
   "value": "[ONSDAGSDEBATT]",
   "key": "onsdagsdebatt"
-  } , "MG": {
-  "value": "[MG]",
-  "key": "mg"
-  }, "KU": {
-  "value": "[KU]",
-  "key": "ku"
-  }, "KSG": {
-  "value": "[KSG]",
-  "key": "ksg"
-  }, "LØK": {
-  "value": "[løk]",
-  "key": "løk"
-  }, "KLST": {
-  "value": "[KLST]",
-  "key": "klst"
-  }, "FG": {
-  "value": "[FG]",
-  "key": "fg"
-  }, "VK": {
-  "value": "[VK]",
-  "key": "vk"
-  }, "STYRET": {
-  "value": "[STYRET]",
-  "key": "styret"
-  }, "Nybygg": {
-  "value": "[NYBYGG]",
-  "key": "nybygg"
-  }, "FK": {
-  "value": "[FK]",
-  "key": "fk"
-  }, "ARK": {
-  "value": "[ARK]",
-  "key": "ark"
-  }, "Kor": {
-  "value": "[KOR]",
-  "key": "kor"
-  }, "SM": {
-  "value": "[SM]",
-  "key": "sm"
-  }, "REGI": {
-  "value": "[REGI]",
-  "key": "regi"
-  }, "Profil": {
-  "value": "[PROFIL]",
-  "key": "profil"
-  }, "SIT": {
-  "value": "[SIT]",
-  "key": "sit"
-  }, "Pirum": {
-  "value": "[PIRUM]",
-  "key": "prium"
-  }, "Samfundet.no": {
-  "value": "[SAMFUNDET.NO]",
-  "key": "samfundet.no"
-  }, "ITK": {
-  "value": "[ITK]",
-  "key": "itk"
   }
 }

@@ -43,8 +43,9 @@ class TypeOfEventInput extends Component {
                 })(
                     <Select
                         placeholder={placeholder}
-                        mode="tags"
+                        mode="multiple"
                         style={{ width: '100%' }}
+                        notFoundContent={"Ingen type funnet ved det navnet"}
 
                     >
                         {children}

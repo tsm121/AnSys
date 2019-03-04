@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Form, Select } from 'antd';
-import Rooms from '../../data/Rooms'
+import Organizers from '../../data/Organizers'
 
 const Option = Select.Option;
-const children = [Object.entries(Rooms).map(([type, values]) => {
+const children = [Object.entries(Organizers).map(([type, values]) => {
     return (
         <Option key={values["key"]} value={values["value"]}>
             {type}
@@ -12,10 +12,10 @@ const children = [Object.entries(Rooms).map(([type, values]) => {
 })]
 
 
-class RoomSelection extends Component {
+class OrganizerSelection extends Component {
 
     selectTypeOfInput = () => {
-        const {label, placeholder, required, max_rooms, singleSelection} = this.props
+        const {label, placeholder, required, max_organizers, singleSelection} = this.props
         const { getFieldDecorator } = this.props.form;
 
         if (singleSelection) {
@@ -39,14 +39,14 @@ class RoomSelection extends Component {
                         rules: [
                             {
                                 required: {required},
-                                message: "Velg minst ett rom!"
+                                message: "Velg minst en arrangør!"
                             },
                             {
                                 validator: (rule, value, callback) => {
                                     if (value) {
-                                        if (value.length > max_rooms) {
-                                            callback("Ikke velg mer enn " + max_rooms.toString() + " rom!");
-                                        } else if (value.length <= max_rooms) {
+                                        if (value.length > max_organizers) {
+                                            callback("Ikke velg mer enn " + max_organizers.toString() + " arrangører!");
+                                        } else if (value.length <= max_organizers) {
                                             callback();
                                         }
                                     }
@@ -59,7 +59,7 @@ class RoomSelection extends Component {
                             placeholder={placeholder}
                             mode={"multiple"}
                             style={{ width: '100%' }}
-                            notFoundContent={"Ingen rom funnet ved det navnet"}
+                            notFoundContent={"Ingen gjeng funnet ved det navnet"}
 
                         >
                             {children}
@@ -81,5 +81,5 @@ class RoomSelection extends Component {
     }
 }
 
-const WrapperRoomSelection = Form.create()(RoomSelection);
-export default WrapperRoomSelection;
+const WrapperOrganizerSelection = Form.create()(OrganizerSelection);
+export default WrapperOrganizerSelection;

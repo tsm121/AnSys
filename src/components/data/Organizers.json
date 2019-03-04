@@ -1,0 +1,60 @@
+{
+  "MG": {
+  "value": "[MG]",
+  "key": "mg"
+  }, "KU": {
+  "value": "[KU]",
+  "key": "ku"
+  }, "KSG": {
+  "value": "[KSG]",
+  "key": "ksg"
+  }, "LØK": {
+  "value": "[løk]",
+  "key": "løk"
+  }, "KLST": {
+  "value": "[KLST]",
+  "key": "klst"
+  }, "FG": {
+  "value": "[FG]",
+  "key": "fg"
+  }, "VK": {
+  "value": "[VK]",
+  "key": "vk"
+  }, "STYRET": {
+  "value": "[STYRET]",
+  "key": "styret"
+  }, "Nybygg": {
+  "value": "[NYBYGG]",
+  "key": "nybygg"
+  }, "FK": {
+  "value": "[FK]",
+  "key": "fk"
+  }, "ARK": {
+  "value": "[ARK]",
+  "key": "ark"
+  }, "SM": {
+  "value": "[SM]",
+  "key": "sm"
+  }, "REGI": {
+  "value": "[REGI]",
+  "key": "regi"
+  }, "Profil": {
+  "value": "[PROFIL]",
+  "key": "profil"
+  }, "SIT": {
+  "value": "[SIT]",
+  "key": "sit"
+  }, "Pirum": {
+  "value": "[PIRUM]",
+  "key": "prium"
+  }, "ITK": {
+  "value": "[ITK]",
+  "key": "itk"
+  },"UKA": {
+  "value": "[UKA]",
+  "key": "uka"
+  },"ISFiT": {
+  "value": "[ISFIT]",
+  "key": "isfit"
+  }
+}
