@@ -9,6 +9,7 @@ import AgeLimit from "../form/AgeLimit";
 import RoomSelection from "../form/RoomSelection";
 import OrganizerSelection from "../form/OrganizerSelection";
 import PublishDate from "../form/PublishDate";
+import PriceInput from "../form/PriceInput";
 
 
 class Facebook extends Component {
@@ -94,6 +95,12 @@ class Facebook extends Component {
                     placeholder={"Dato for publisering"}
                     label={"Velg dato og tid for publisering"}
                     required={true}
+                />
+
+                <PriceInput
+                    placeholder={"Pris i NOK"}
+                    label={"Pris for medlem/ikke-medlem"}
+                    required={false}
                 />
 
             </Form>
