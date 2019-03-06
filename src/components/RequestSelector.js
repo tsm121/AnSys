@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Select } from 'antd';
-import Facebook from "./reqests/video/Facebook";
+import Examples from "./reqests/Examples";
 const { Option, OptGroup } = Select;
 
 
@@ -26,9 +26,9 @@ class RequestSelector extends Component {
     renderSelection = () => {
         const {requestSelected} = this.state
         switch (requestSelected) {
-            case "facebook":
+            case "examples":
                 return (
-                    <Facebook/>
+                    <Examples/>
                 )
             default: return <h1>Vennligst velg en type anmodning</h1>
         }
@@ -43,6 +43,9 @@ class RequestSelector extends Component {
                     onChange={this.handleChange}
                 >
 
+                    <OptGroup label="DEV">
+                        <Option value="examples">EXAMPLES</Option>
+                    </OptGroup>
 
                     <OptGroup label="MG-Video">
                         <Option value="facebook">Facebook Video</Option>
@@ -78,8 +81,6 @@ class RequestSelector extends Component {
                 </Select>
 
                 {this.renderSelection()}
-
-                <Facebook/>
 
 
             </div>

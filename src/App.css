@@ -1,0 +1,22 @@
+body {
+    background: #aaaaaa;
+    height: 100vh;
+    position: relative;
+    color:#fff;
+}
+
+body:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 60%;
+    left: 0;
+    right: 0;
+    background: #ed8989;
+    z-index:-1;
+}
+
+.ant-card {
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}

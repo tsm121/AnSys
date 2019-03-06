@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import { Form } from 'antd';
+import UrgentOption from "./form/UrgentOption";
+import TitleInput from "./form/TitleInput";
+import DateSelect from "./form/DateSelect";
+import TypeOfEventInput from "./form/TypeOfEventInput";
+import DescriptionInput from "./form/DescriptionInput";
+import AgeLimit from "./form/AgeLimit";
+import RoomSelection from "./form/RoomSelection";
+import OrganizerSelection from "./form/OrganizerSelection";
+import PublishDate from "./form/PublishDate";
+import PriceInput from "./form/PriceInput";
 
-import TitleInput from "../form/TitleInput";
-import DateSelect from "../form/DateSelect";
-import TypeOfEventInput from "../form/TypeOfEventInput";
-import DescriptionInput from "../form/DescriptionInput";
-import UrgentOption from "../form/UrgentOption";
-import AgeLimit from "../form/AgeLimit";
-import RoomSelection from "../form/RoomSelection";
-import OrganizerSelection from "../form/OrganizerSelection";
-import PublishDate from "../form/PublishDate";
-import PriceInput from "../form/PriceInput";
 
 
-class Facebook extends Component {
+class Examples extends Component {
     constructor(props){
         super(props)
         this.state = {
@@ -109,4 +109,4 @@ class Facebook extends Component {
     }
 }
 
-export default Facebook;
+export default Examples;

@@ -17,9 +17,6 @@ class Navigation extends Component {
 
     render() {
         return (
-
-            <div>
-
                 <Menu
                     onClick={this.handleClick}
                     selectedKeys={[this.state.current]}
@@ -30,12 +27,11 @@ class Navigation extends Component {
                         <NavLink exact activeClassName="current" to='/'/>
                     </Menu.Item>
 
-                    <Menu.Item key="message">
-                        <Icon type="message" /> Anmodning
-                        <NavLink exact activeClassName="current" to='/about' />
+                    <Menu.Item key="request">
+                        <Icon type="request" /> Anmodning
+                        <NavLink exact activeClassName="current" to='/request' />
                     </Menu.Item>
                 </Menu>
-            </div>
         );
     }
 }

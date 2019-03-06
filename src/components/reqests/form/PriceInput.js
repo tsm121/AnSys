@@ -24,7 +24,6 @@ class PriceInput extends Component {
                                 addonAfter="NOK"
                                 placeholder={placeholder}
                                 type={"number"}
-                                style={{width:"50%"}}
 
                             />
                         </Row>
@@ -35,7 +34,6 @@ class PriceInput extends Component {
                                 addonAfter="NOK"
                                 placeholder={placeholder}
                                 type={"number"}
-                                style={{width:"50%"}}
 
                             />
                         </Row>

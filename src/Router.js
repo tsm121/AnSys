@@ -9,7 +9,7 @@ class Router extends Component {
         return (
             <Switch>
                 <Route exact path='/' component={Home}></Route>
-                <Route exact path='/about' component={Request}></Route>
+                <Route exact path='/request' component={Request}></Route>
             </Switch>
         );
     }
