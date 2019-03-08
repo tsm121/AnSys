@@ -82,7 +82,6 @@ class RequestSelector extends Component {
 
                 {this.renderSelection()}
 
-
             </div>
         );
     }

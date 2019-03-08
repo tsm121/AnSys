@@ -28,7 +28,7 @@ class Navigation extends Component {
                     </Menu.Item>
 
                     <Menu.Item key="request">
-                        <Icon type="request" /> Anmodning
+                        <Icon type="request" />Anmodning
                         <NavLink exact activeClassName="current" to='/request' />
                     </Menu.Item>
                 </Menu>

@@ -1,5 +1,5 @@
 body {
-    background: #aaaaaa;
+    background: #5f6c75;
     height: 100vh;
     position: relative;
     color:#fff;
@@ -16,7 +16,154 @@ body:before {
     z-index:-1;
 }
 
+
+h1 {
+    color: #5f6c75
+}
+
+h2 {
+    color: #5f6c75
+}
+
+h3 {
+    color: #5f6c75
+}
+
+h4 {
+    color: #5f6c75
+}
+
+
+/* Menu item */
+.ant-menu-horizontal > .ant-menu-item-selected {
+    color: #ed8989 ;
+    border-bottom: 2px solid #ed8989;
+}
+
+/* Menu item hover */
+.ant-menu-horizontal > .ant-menu-item:hover {
+    color: #ed8989 ;
+    border-bottom: 2px solid #ed8989;
+}
+
+/* Modal icon */
+.ant-modal-confirm-body > .anticon {
+    color: #ed8989 !important;
+
+}
+
+/* Modal confirm button */
+.ant-modal-confirm-btns > .ant-btn-primary {
+    background-color: green;
+    border-color: green;
+}
+
+/* Modal hover confirm button */
+.ant-modal-confirm-btns > .ant-btn-primary:hover {
+    background-color: limegreen;
+    border-color: limegreen;
+}
+/* Popover primary button */
+.ant-popover-buttons > .ant-btn-primary{
+    background-color: green !important;
+    border-color: green;
+}
+
+/* Popover hover primary button */
+.ant-popover-buttons > .ant-btn-primary:hover{
+    background-color: limegreen !important;
+    border-color: limegreen;
+}
+/* Popover button */
+.ant-popover-buttons > .ant-btn-sm {
+    background-color: grey;
+    color: white;
+}
+
+/* Popover hover button */
+.ant-popover-buttons > .ant-btn-sm:hover {
+    background-color: darkgrey;
+    color: white;
+}
+
+/* Radio button */
+.ant-radio-button-wrapper-checked {
+    background: red !important;
+    border-color: red !important;
+    box-shadow: -1px 0 0 0 red !important;
+}
+
+/* Radio button hover */
+.ant-radio-button-wrapper:hover {
+    color:red !important;
+}
+
+/* Radio button checked hover */
+.ant-radio-button-wrapper-checked:hover {
+    color:grey !important;
+}
+
+/* Card body */
 .ant-card {
     border-radius: 5px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
+/* Card header */
+.ant-card-head {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    border-bottom-color: #ababab;
+
+    background: rgb(235,235,235);
+    background: linear-gradient(0deg, rgba(235,235,235,1) 0%, rgba(246,246,246,1) 39%);
+}
+
+/* Card header h1 title */
+.ant-card-head h1 {
+    color: #5f6c75;
+    margin: 0;
+    font-weight: 500;
+  }
+
+/* Card header h4 title */
+.ant-card-head h4 {
+    color: #ababab;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+/* Message icon color */
+.ant-message-custom-content > .anticon {
+    color: red !important;
+}
+
+
+/*
+.ant-input:hover {
+    border-color: #ed8989;
+}
+
+.ant-select-selection:hover {
+    border-color: #ed8989;
+}
+
+.ant-time-picker-input:hover {
+    border-color: #ed8989;
+
+}
+
+.ant-select-selection:focus {
+    boder-color: #ed8989 !important;
+
+}
+
+
+.ant-select-selection:active {
+    boder-color: #ed8989 !important;
+
+}
+
+*/
+

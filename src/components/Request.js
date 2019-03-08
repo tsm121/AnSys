@@ -5,7 +5,6 @@ import { Col, Row, Card, Modal, Button, Icon } from 'antd';
 
 
 class Request extends Component {
-
     renderHelpButton = () => {
         return (
             <Icon
@@ -33,6 +32,20 @@ class Request extends Component {
         });
     }
 
+    renderCardTitle = () => {
+
+        return (
+            <Row type="flex" justify={"center"}>
+                <Col>
+                    <h1>Title Here</h1>
+
+                    <h4>Subtitle</h4>
+                </Col>
+            </Row>
+
+        )
+    }
+
     render() {
         return (
             <Row>
@@ -41,14 +54,11 @@ class Request extends Component {
                 <Col span={12}>
 
                     <Card
-                        title={
-                            <h1>Type anmodning</h1>
-                        }
+                        title={this.renderCardTitle()}
                         extra={this.renderHelpButton()}
                         bordered={false}
                     >
                         <RequestSelector/>
-
 
                     </Card>
                 </Col>

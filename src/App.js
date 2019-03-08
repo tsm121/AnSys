@@ -15,7 +15,7 @@ class App extends Component {
                     <Col>
                         <Navigation/>
                     </Col>
-                    <Col style={{padding:"2em"}}>
+                    <Col>
                         <Router/>
                     </Col>
                 </Row>
